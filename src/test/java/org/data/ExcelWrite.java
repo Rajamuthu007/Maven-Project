@@ -21,7 +21,7 @@ public static void main(String[] args) throws IOException {
 	createCell.setCellValue("Rajamuthu");
 	FileOutputStream stream = new FileOutputStream(f);
 	w.write(stream);
-	
+	System.out.println("stream");
 	
 	
 }
